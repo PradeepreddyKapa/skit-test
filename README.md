@@ -8,9 +8,15 @@ DOCKERFILE
    6. Run the main.go file in /app/ directory 
 
 commands Used :-
+
   docker build .
+  
   docker run -d <imageID>
+  
   docker run -it <imageID>   # This gave " hello, my hostname is f036936298f9 "
+  
   docker commit <imageID> pradeep34946/skit:V1
+  
   docker push docker.io/pradeep34946/skit:V1 
+  
   Pushed Docker image to Doceker hub and you can pull it from  " docker pull pradeep34946/skit:V1 "
